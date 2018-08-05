@@ -97,3 +97,13 @@ JSON.stringify(person); //converts an object into a json-like string
 // to state its type explicitly
 
 let z = 3; //TS determines that x is of type number - type inference
+
+//typeof var returns string representation of type
+console.log(typeof z);  //returns "number"
+let new_number: typeof z;
+
+//type aliasing:
+// type new_type = existing_type
+
+//union types:
+// var something: string | number 
