@@ -33,3 +33,7 @@ var niska: string = "The big brown fox";
 var matches = niska.match(/[A-Z][a-z]+/);
 
 //enum type
+//syntax: enum name {value1, value2, ...}
+enum Strane_sveta {NORTH, EAST, SOUTH, WEST};
+//assigning variables to enum values:
+let strana: Strane_sveta = Strane_sveta.EAST;
