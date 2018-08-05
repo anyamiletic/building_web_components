@@ -96,4 +96,4 @@ JSON.stringify(person); //converts an object into a json-like string
 // when initializing a variables value there is no need
 // to state its type explicitly
 
-let x = 3; //TS determines that x is of type number - type inference
+let z = 3; //TS determines that x is of type number - type inference
