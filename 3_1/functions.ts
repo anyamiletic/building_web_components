@@ -41,3 +41,6 @@ let func: () =>   number = (
       return increment;
     }
   ());
+
+// generic types
+//let middle: (arr: Array<T>) => T;
