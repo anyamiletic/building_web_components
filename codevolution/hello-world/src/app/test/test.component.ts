@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
+  public name = "Anya";
+  public url = window.location.href;
+  public testProtocol = window.location.protocol;
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  greetUser(){
+    return "Hello " + this.name;
+  }
 }
