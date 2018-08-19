@@ -11,9 +11,15 @@ export class TestComponent implements OnInit {
   public url = window.location.href;
   public testProtocol = window.location.protocol;
 
+
+  // property binding
+  public myId = "testId";
+  public isDisabled = true;
+
   constructor() { }
 
   ngOnInit() {
+    console.log("checking console in Chrome!");
   }
 
   greetUser(){
