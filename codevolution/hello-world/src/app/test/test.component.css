@@ -1,0 +1,9 @@
+.text_success {
+  color: green;
+}
+.text_danger {
+  color: red;
+}
+.text_special {
+  color: italic;
+}

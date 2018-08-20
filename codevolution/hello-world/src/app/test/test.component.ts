@@ -16,6 +16,10 @@ export class TestComponent implements OnInit {
   public myId = "testId";
   public isDisabled = true;
 
+  // class binding
+  public successClass = "text_success";
+  public hasError = true;
+
   constructor() { }
 
   ngOnInit() {
