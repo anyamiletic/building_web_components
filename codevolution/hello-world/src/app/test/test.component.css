@@ -5,5 +5,5 @@
   color: red;
 }
 .text_special {
-  color: italic;
+  font-style: italic;
 }

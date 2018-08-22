@@ -18,7 +18,15 @@ export class TestComponent implements OnInit {
 
   // class binding
   public successClass = "text_success";
-  public hasError = true;
+  public hasError = false;
+
+  // ngClass directives
+  public isSpecial = true;
+  public messageClasses = {
+    "text_success": !this.hasError,
+    "text_danger": this.hasError,
+    "text_special": this.isSpecial
+  }
 
   constructor() { }
 
